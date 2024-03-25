@@ -34,7 +34,7 @@ class BookscraperPipeline:
             adapter[price_key] = float(value)
             adapter[price_key] = adapter[price_key] * 24.0
             adapter[price_key] = str(adapter[price_key])
-            adapter[price_key] = "R" + adapter[price_key]
+            adapter[price_key] = "R " + adapter[price_key]
             
         
         return item 
