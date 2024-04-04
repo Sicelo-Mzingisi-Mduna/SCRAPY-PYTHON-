@@ -161,4 +161,4 @@ class SaveToMySQLPipeline:
 ITEM_PIPELINES = {
     "bookscraper.pipelines.SaveToMySQLPipeline": 400,
 }
-'''      
+'''       
